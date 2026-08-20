@@ -35,7 +35,7 @@ Instead, sensitive credentials should be protected using appropriate Android sec
 
 ---
 
-2. Android Keystore
+<h2> 2. Android Keystore </h2>
 
 ❓ What is Android Keystore?
 
@@ -59,7 +59,7 @@ Similarly, your app can ask Android to perform cryptographic operations using a 
 
 ---
 
-3. Secure Token Storage
+<h2> 3. Secure Token Storage </h2>
 
 ❓ How do you securely store access and refresh tokens?
 
@@ -86,7 +86,7 @@ If that token is stolen, someone may be able to impersonate the user.
 
 ---
 
-4. Hardcoded Secrets
+<h2> 4. Hardcoded Secrets </h2>
 
 ❓ Why shouldn't you hardcode API keys or secrets in an Android app?
 
