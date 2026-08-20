@@ -1,44 +1,10 @@
-🔐 Android Security — Interview Preparation
+# 🔐 Android Security — Interview Preparation
 
-«A practical Android security interview guide with simple explanations, real-life examples, and interview-ready answers.»
-
----
-
-📚 Table of Contents
-
-1. "Secure Data Storage" (#1-secure-data-storage)
-2. "Android Keystore" (#2-android-keystore)
-3. "Secure Token Storage" (#3-secure-token-storage)
-4. "Hardcoded Secrets" (#4-hardcoded-secrets)
-5. "Biometric Authentication" (#5-biometric-authentication)
-6. "BiometricPrompt" (#6-biometricprompt)
-7. "Authentication vs Authorization" (#7-authentication-vs-authorization)
-8. "HTTP vs HTTPS" (#8-http-vs-https)
-9. "How HTTPS Works" (#9-how-https-works)
-10. "SSL/TLS" (#10-ssltls)
-11. "SSL/TLS Handshake" (#11-ssltls-handshake)
-12. "MITM Attack" (#12-mitm-attack)
-13. "Preventing MITM Attacks" (#13-preventing-mitm-attacks)
-14. "Certificate Pinning" (#14-certificate-pinning)
-15. "Network Security Configuration" (#15-network-security-configuration)
-16. "Cleartext Traffic" (#16-cleartext-traffic)
-17. "Reverse Engineering" (#17-reverse-engineering)
-18. "ProGuard" (#18-proguard)
-19. "R8" (#19-r8)
-20. "ProGuard vs R8" (#20-proguard-vs-r8)
-21. "Code Obfuscation" (#21-code-obfuscation)
-22. "API Keys & Secrets" (#22-api-keys--secrets)
-23. "APK Signing" (#23-apk-signing)
-24. ""android:exported"" (#24-androidexported)
-25. "Securing Android Components" (#25-securing-android-components)
-26. "WebView Security" (#26-webview-security)
-27. ""addJavascriptInterface()"" (#27-addjavascriptinterface)
-28. "Reverse Engineering Tools" (#28-reverse-engineering-tools)
-29. "Root Detection" (#29-root-detection)
+A practical Android security interview guide with simple explanations, real-life examples, and interview-ready answers.
 
 ---
 
-1. Secure Data Storage
+## 1. Secure Data Storage
 
 ❓ How do you securely store sensitive data in Android?
 
@@ -67,7 +33,7 @@ Instead, sensitive information should be protected using appropriate Android sec
 
 ---
 
-2. Android Keystore
+## 2. Android Keystore
 
 ❓ What is Android Keystore?
 
@@ -91,7 +57,7 @@ Similarly, your app asks Android to use the encryption key when needed.
 
 ---
 
-3. Secure Token Storage
+## 3. Secure Token Storage
 
 ❓ How do you securely store access and refresh tokens?
 
@@ -118,7 +84,7 @@ If someone steals that token, they may be able to impersonate the user.
 
 ---
 
-4. Hardcoded Secrets
+## 4. Hardcoded Secrets
 
 ❓ Why shouldn't you hardcode API keys or secrets in an Android app?
 
@@ -142,7 +108,7 @@ Even if you write "nothing important here" on the box, someone can still open it
 
 ---
 
-5. Biometric Authentication
+## 5. Biometric Authentication
 
 ❓ What is Biometric Authentication?
 
@@ -166,7 +132,7 @@ The user doesn't need to enter their password every time.
 
 ---
 
-6. BiometricPrompt
+## 6. BiometricPrompt
 
 ❓ How does "BiometricPrompt" work?
 
@@ -821,23 +787,3 @@ A sophisticated attacker may bypass it.
 «"Root detection can identify potentially compromised environments, but it should be treated as one layer of defense rather than complete security."»
 
 ---
-
-🧠 Final Memory Map
-
-When an interviewer says:
-
-«"Let's talk about Android Security."»
-
-Think:
-
-                 🔐 ANDROID SECURITY
-                        │
-        ┌───────────────┼───────────────┐
-        ↓               ↓               ↓
-       DATA          NETWORK           APP
-        │               │               │
-    Keystore         HTTPS              R8
-    Tokens           TLS               Obfuscation
-    Secrets          MITM              APK Signing
-                    Pinning
-                     
