@@ -166,7 +166,7 @@ Android handles the biometric verification and tells the application whether aut
 
 ---
 
-7. Authentication vs Authorization
+## 7. Authentication vs Authorization
 
 ❓ What's the difference between Authentication and Authorization?
 
@@ -196,7 +196,7 @@ Authorization:
 
 ---
 
-8. HTTP vs HTTPS
+## 8. HTTP vs HTTPS
 
 ❓ What's the difference between HTTP and HTTPS?
 
@@ -224,7 +224,7 @@ HTTPS encrypts the communication.
 
 ---
 
-9. How HTTPS Works
+## 9. How HTTPS Works
 
 ❓ How does HTTPS actually work?
 
@@ -256,7 +256,7 @@ the request and response are protected using the secure TLS connection.
 
 ---
 
-10. SSL/TLS
+## 10. SSL/TLS
 
 ❓ What is SSL/TLS?
 
@@ -280,7 +280,7 @@ When your Android app communicates with a server over HTTPS, TLS protects that c
 
 ---
 
-11. SSL/TLS Handshake
+## 11. SSL/TLS Handshake
 
 ❓ What happens during an SSL/TLS handshake?
 
@@ -319,7 +319,7 @@ Before your banking app sends sensitive account information, the app and server 
 
 ---
 
-12. MITM Attack
+## 12. MITM Attack
 
 ❓ What is a Man-in-the-Middle attack?
 
@@ -345,7 +345,7 @@ An attacker controlling the network attempts to intercept communication between 
 
 ---
 
-13. Preventing MITM Attacks
+## 13. Preventing MITM Attacks
 
 ❓ How do you prevent MITM attacks in Android?
 
@@ -372,7 +372,7 @@ A banking app should never accept an arbitrary certificate just because the conn
 
 ---
 
-14. Certificate Pinning
+## 14. Certificate Pinning
 
 ❓ What is Certificate Pinning?
 
@@ -394,7 +394,7 @@ Even if an attacker presents another certificate that is otherwise trusted by th
 
 ---
 
-15. Network Security Configuration
+## 15. Network Security Configuration
 
 ❓ What is Network Security Configuration?
 
@@ -416,7 +416,7 @@ You might want production traffic to always use HTTPS while allowing HTTP only i
 
 ---
 
-16. Cleartext Traffic
+## 16. Cleartext Traffic
 
 ❓ What is cleartext traffic and how do you prevent it?
 
@@ -441,7 +441,7 @@ the communication is not protected by TLS.
 
 ---
 
-17. Reverse Engineering
+## 17. Reverse Engineering
 
 ❓ How can an Android application be reverse engineered?
 
@@ -471,7 +471,7 @@ An attacker downloads your APK and analyzes it to understand how your authentica
 
 ---
 
-18. ProGuard
+## 18. ProGuard
 
 ❓ What is ProGuard?
 
@@ -498,7 +498,7 @@ obfuscated code may contain short, meaningless names.
 
 ---
 
-19. R8
+## 19. R8
 
 ❓ What is R8?
 
@@ -524,7 +524,7 @@ R8 can remove unused code and optimize the final application.
 
 ---
 
-20. ProGuard vs R8
+## 20. ProGuard vs R8
 
 ❓ What's the difference between ProGuard and R8?
 
@@ -541,7 +541,7 @@ Historically common| Commonly used today
 
 ---
 
-21. Code Obfuscation
+## 21. Code Obfuscation
 
 ❓ What is code obfuscation?
 
@@ -569,7 +569,7 @@ They still have the map, but understanding it becomes much harder.
 
 ---
 
-22. API Keys & Secrets
+## 22. API Keys & Secrets
 
 ❓ Can R8 protect API keys or secrets?
 
@@ -595,7 +595,7 @@ Even if R8 changes the variable name, the actual secret may still be recoverable
 
 ---
 
-23. APK Signing
+## 23. APK Signing
 
 ❓ What is APK signing?
 
@@ -617,7 +617,7 @@ Similarly, modifying an APK can invalidate its expected signature.
 
 ---
 
-24. "android:exported"
+## 24. "android:exported"
 
 ❓ What does "android:exported" mean?
 
@@ -643,7 +643,7 @@ If the room is private, random visitors cannot enter it.
 
 ---
 
-25. Securing Android Components
+## 25. Securing Android Components
 
 ❓ How do you secure Activities, Services, and BroadcastReceivers?
 
@@ -673,7 +673,7 @@ So you restrict access and validate the request.
 
 ---
 
-26. WebView Security
+## 26. WebView Security
 
 ❓ What are common WebView security issues?
 
@@ -697,7 +697,7 @@ If your app loads an attacker-controlled website inside a WebView and exposes se
 
 ---
 
-27. "addJavascriptInterface()"
+## 27. "addJavascriptInterface()"
 
 ❓ Why can "addJavascriptInterface()" be dangerous?
 
@@ -723,7 +723,7 @@ If you load an untrusted website, that remote control becomes dangerous.
 
 ---
 
-28. Common Reverse Engineering Tools
+## 28. Common Reverse Engineering Tools
 
 ❓ What tools are commonly used for Android reverse engineering and security testing?
 
@@ -757,7 +757,7 @@ Observe runtime behavior
 
 ---
 
-29. Root Detection
+## 29. Root Detection
 
 ❓ What is root detection and why might an app care about rooted devices?
 
